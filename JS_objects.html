@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        //Example 1 - JavaScript Objects
+        <h1>JavaScript Objects</h1>
+        <h2>Creating an Object</h2>
+        <p id="demo"></p>
+        <script>
+        const car = {type:"Fiat", model:"500", color:"white"};
+        document.getElementById("demo").innerHTML ="The car type is " + car.type;
+        </script>
+
+        //Example 2 - Using the new Keyword
+        <h1>Creating JavaScript Objects</h1>
+        <h2>Using the new Keyword</h2>
+        <p id="demo"></p>
+        <script>
+        const person = new Object({
+        firstName: "John",
+        lastName: "Doe",
+        age: 50,
+        eyeColor: "blue" });
+        document.getElementById("demo").innerHTML =
+        person.firstName + " is " + person.age + " years old.";
+        </script>
+    </body>
+</html>

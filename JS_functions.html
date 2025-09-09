@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        //Example 1 - JavaScript Functions
+        <h1>JavaScript Functions</h1>
+        <p>Call a function to compute the product of p1 and p2 and return the result:</p>
+        <p id="demo"></p>
+        <script>
+        function myFunction(p1, p2) {return p1 * p2;}
+        let result = myFunction(4, 3);
+        document.getElementById("demo").innerHTML = "The result is: " + result;
+        </script>
+
+        //Example 2 - Function Invocation ()
+        <h1>JavaScript Functions</h1>
+        <p>Invoke (call) a function that converts from Fahrenheit to Celsius:</p>
+        <p id="demo"></p>
+        <script>
+        function toCelsius(f) {return (5/9) * (f-32);}
+        let value = toCelsius(77);
+        document.getElementById("demo").innerHTML = value;
+        </script>
+
+        //Example  3 - Arrow Functions
+        <h1>JavaScript Functions</h1>
+        <h2>The Arrow Function</h2>
+        <p>This example shows the syntax of an Arrow Function, and how to use it.</p>
+        <p id="demo"></p>
+        <script>
+        myFunction = (a, b) => a * b;
+        let result = myFunction(4, 5);
+        document.getElementById("demo").innerHTML = "The product is: " + result
+        </script>
+</html>
+</body>
